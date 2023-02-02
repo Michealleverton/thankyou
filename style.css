@@ -63,31 +63,35 @@
     --bs-body-line-height: 1.5;
     --bs-body-color: #d4dde6;
     --bs-body-bg: rgb(82, 53, 199);
-  }
+}
 
-  @media (prefers-reduced-motion: no-preference) {
+@media (prefers-reduced-motion: no-preference) {
     :root {
-      scroll-behavior: smooth;
+        scroll-behavior: smooth;
     }
-  }
+}
 
-  .blueline {
+.blueline {
     border: 3px dashed blue;
-  }
-  .redline {
-    border: 3px dashed red;
-  }
-  .greenline {
-    border: 3px dashed green;
-  }
-  .yellowline {
-    border: 3px dashed yellow;
-  }
-  .orangeline {
-    border: 3px dashed orange;
-  }
+}
 
-  body {
+.redline {
+    border: 3px dashed red;
+}
+
+.greenline {
+    border: 3px dashed green;
+}
+
+.yellowline {
+    border: 3px dashed yellow;
+}
+
+.orangeline {
+    border: 3px dashed orange;
+}
+
+body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     font-size: var(--bs-body-font-size);
@@ -98,4 +102,17 @@
     background-color: var(--bs-body-bg);
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  }
+}
+
+.thx_container {
+    position: relative;
+    width: 100%;
+}
+
+.thxcard {
+    position: absolute;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #0dcaf0;
+}
