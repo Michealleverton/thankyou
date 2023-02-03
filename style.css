@@ -120,7 +120,7 @@ body {
     width: 600px;
     padding: 50px;
     margin: 15px;
-    background: #c5dcfd;
+    background: #d1e4fd;
     border-radius: 10px;
     /* border: solid 1px #000; */
     box-shadow: 0 0 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
@@ -134,7 +134,7 @@ body {
     top: -225px;
     left: 475px;
     border-radius: 100%;
-    background: rgba(255, 255, 255, 0.265);
+    background: rgba(255, 255, 255, 0.087);
 }
 
 .little_circle {
