@@ -61,7 +61,7 @@
     --bs-body-font-size: 1rem;
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.5;
-    --bs-body-color: #d4dde6;
+    --bs-body-color: #434547;
     --bs-body-bg: rgb(82, 53, 199);
 }
 
@@ -106,14 +106,55 @@ body {
 
 .thx_container {
     position: relative;
-    width: 100%;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;   
 }
 
 .thxcard {
     position: absolute;
     display: flex;
-    width: 400px;
+    flex-direction: column;
+    width: 600px;
     padding: 50px;
-    margin: auto;
-    background: #0dcaf0;
+    margin: 15px;
+    background: #c5dcfd;
+    border-radius: 10px;
+    /* border: solid 1px #000; */
+    box-shadow: 0 0 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
+    outline-style: none;
+}
+
+.big_circle {
+    position: absolute;
+    width: 1200px;
+    height: 1200px;
+    top: -225px;
+    left: 475px;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.265);
+}
+
+.little_circle {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: 100px;
+    left: 900px;
+    border-radius: 100%;
+    background: rgb(82, 53, 199);
+}
+
+.title {
+text-align: center;
+font-weight: 600;
+font-size: 2rem;
+}
+
+.basetext {
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.25rem;
 }
