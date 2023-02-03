@@ -196,3 +196,37 @@ color: rgb(66, 42, 163);
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
+
+.backto_btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(148, 127, 243);
+    border-color: #000000;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 5px;
+    text-align: center;
+    /* font-weight: 600; */
+    font-size: 1.1rem;
+    padding: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 30px;
+    text-decoration: none
+  }
+  
+  .backto_btn:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(82, 53, 199);
+    border-color: #000000;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 5px;
+    text-align: center;
+    /* font-weight: 600; */
+    font-size: 1.1rem;
+    padding: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 30px;
+    text-decoration: none
+  }
