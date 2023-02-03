@@ -125,6 +125,24 @@ body {
     /* border: solid 1px #000; */
     box-shadow: 0 0 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
     outline-style: none;
+    align-items: center;
+}
+
+@media (max-width: 764px) {
+    .thxcard {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        padding: 50px;
+        margin: 15px;
+        background: #d1e4fd;
+        border-radius: 10px;
+        /* border: solid 1px #000; */
+        box-shadow: 0 0 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
+        outline-style: none;
+        align-items: center;
+    }
 }
 
 .big_circle {
@@ -144,17 +162,37 @@ body {
     top: 100px;
     left: 900px;
     border-radius: 100%;
-    background: rgb(82, 53, 199);
+    background: rgb(77, 50, 186);
 }
 
 .title {
 text-align: center;
 font-weight: 600;
 font-size: 2rem;
+color: rgb(66, 42, 163);
 }
 
 .basetext {
     text-align: center;
-    font-weight: 200;
-    font-size: 1.25rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.mail_icon img {
+    width: 75px;
+    justify-content: center;
+    margin-bottom: 2rem;
+    color: rgb(130, 107, 236);
+}
+
+.paperplane {
+    position: absolute;
+    width: 1000px;
+    justify-content: center;
+    top: 25px;
+    left: 20px;
+    opacity: 50%;
+    z-index: 1;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
